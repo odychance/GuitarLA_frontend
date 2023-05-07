@@ -1,0 +1,43 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: none;
+    margin: 0rem auto;
+    text-align: center;
+    padding: 1rem;
+}
+.resumen {
+    color: #fff;
+    display: flex;
+    text-align: center;
+}
+
+.fecha {
+    color: var(--primary);
+    font-size: 1.5rem;
+}
+.botonCurso {
+    border: 4px solid  var(--primary);
+    margin: auto 6rem;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    text-align: center;
+    font: bold;
+    text-transform: background-color;
+    transition: .3s;
+}
+.botonCurso:hover {
+    background-color: var(--primary);
+    color: #fff;
+}
+@media (min-width: 768px) {
+    .contenedor {
+        grid-template-columns: 2fr 1fr;
+
+    }
+    .resumen {
+        text-align: right;
+    }
+}

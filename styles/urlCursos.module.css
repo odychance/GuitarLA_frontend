@@ -1,0 +1,12 @@
+.contenido  {
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0;
+    line-height: 4rem;
+    text-align: justify;
+}
+.fecha {
+    font-size: 2.2rem;
+    color: var(--primary);
+    text-align: right;
+}
